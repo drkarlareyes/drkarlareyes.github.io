@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Biomedical Engineer & Data Scientist</a>. Researcher at VSB Technical University of Ostrava.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>eHealth Lab - Dept. of Biomedical Engineering</p>
+    <p>Ostrava, Czech Republic</p>
+    <p>drkarlareyes@gmail.com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,20 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false # I disabled this for now. Change to 'true' if you start writing a blog.
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[cite_start]I am a Researcher at the **VSB Technical University of Ostrava** (Czech Republic) collaborating with the eHealth Lab[cite: 9, 11]. [cite_start]I am a Biomedical Engineer and Healthcare Data Scientist with extensive experience bridging the gap between clinical medicine, digital health innovation, and artificial intelligence[cite: 3, 5].
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+[cite_start]I hold a PhD in Biomedical Engineering from **Universidad Politécnica de Madrid**[cite: 75]. [cite_start]My research focuses on **Deep Learning**, **Physiological Signal Processing** (Radar, ECG, Inertial, and Wearable sensors), and **Clinical Decision Support Systems**[cite: 3, 4]. [cite_start]I specialize in developing regulatory-compliant AI (Software as a Medical Device - SaMD) and designing continuous learning pipelines for automated model retraining[cite: 4, 19].
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[cite_start]Previously, I served as a Research Scholar at **UC Santa Cruz** (Computer Vision Lab) [cite: 29, 30] [cite_start]and **Karlsruhe Institute of Technology** (Germany) [cite: 34][cite_start], where I worked on assistive technologies for the visually impaired and biomechanical analysis[cite: 31, 36].
+
+**Current Research Interests:**
+* [cite_start]**Non-contact Vital Sign Monitoring:** Signal processing techniques to estimate vital signs of freely moving people using radar technology[cite: 12].
+* [cite_start]**AI for Medical Imaging:** Automated grading of spinal abnormalities and neuroradiology image processing using Deep Transfer Learning[cite: 27, 88].
+* [cite_start]**Assistive Technology:** Deep learning methods to extract motion characteristics from human activity for rehabilitation and ankle-foot orthotics[cite: 13, 14].
+
+[cite_start]I have mentored over 23 undergraduate and graduate students on research projects regarding assistive technology and biomedical engineering[cite: 15, 26].
