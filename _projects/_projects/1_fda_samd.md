@@ -6,6 +6,7 @@ img: assets/img/mlops.jpg
 importance: 1
 category: Industry & SaMD
 related_publications: false
+mermaid: true
 ---
 
 **Note:** This portfolio entry aggregates my work as a Lead AI Developer and Technical Consultant for several private US and international healthcare companies. Due to strict Non-Disclosure Agreements (NDAs), specific codebases, proprietary algorithms, and client names are confidential.
