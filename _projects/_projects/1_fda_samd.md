@@ -15,10 +15,48 @@ related_publications: false
 
 [cite_start]I function not just as an advisor, but as the primary technical executioner—writing the code, building the models, and ensuring the data science aligns with business goals[cite: 19].
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mlops.jpg" title="AI Pipeline Diagram" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-12">
+        <div class="mermaid">
+        graph LR
+            subgraph Data_Sources [Ingestion Layer]
+                A[("EHR Data")] 
+                B[("Lab Results")]
+                C[("Wearables")]
+            end
+
+            subgraph Processing [MLOps Pipeline]
+                D[Data Harmonization<br/>(ETL)]
+                E{AI Inference<br/>Engine}
+                F[Safety Guardrails<br/>(FDA Rules)]
+            end
+
+            subgraph Output [Decision Support]
+                G[Clinical<br/>Report]
+            end
+            
+            subgraph Feedback [Continuous Learning]
+                H[Model Retraining]
+            end
+
+            A --> D
+            B --> D
+            C --> D
+            D --> E
+            E --> F
+            F -- "Pass" --> G
+            F -- "Flag" --> H
+            H -.-> E
+
+            style A fill:#f9f,stroke:#333,stroke-width:2px
+            style B fill:#f9f,stroke:#333,stroke-width:2px
+            style E fill:#bbf,stroke:#333,stroke-width:2px
+            style G fill:#bfb,stroke:#333,stroke-width:2px
+        </div>
     </div>
+</div>
+<div class="caption">
+    Architecture of the Regulatory-Compliant Continuous Learning Pipeline.
 </div>
 <div class="caption">
     Conceptual architecture of a regulatory-compliant Continuous Learning Pipeline for SaMD (Software as a Medical Device).
