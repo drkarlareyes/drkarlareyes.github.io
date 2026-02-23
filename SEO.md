@@ -4,8 +4,6 @@ This guide helps you optimize your al-folio website for search engines so your r
 
 <!--ts-->
 
-
-
 - [SEO Best Practices Guide](#seo-best-practices-guide)
   - [Overview](#overview)
   - [Basic SEO Setup](#basic-seo-setup)
