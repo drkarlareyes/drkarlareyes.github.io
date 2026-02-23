@@ -192,7 +192,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  - jekyll-scholar
   - jekyll-sitemap
   - jekyll-socials
   - jekyll-tabs
@@ -200,6 +200,10 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-scholar
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
 defaults:
   - scope:
