@@ -424,7 +424,17 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-radar-placement-effects-on-multi-patient-heart-and-respiration-monitoring-sivis-dataset-validation",
+      },{id: "books-assessing-the-adoption-and-challenges-of-electronic-health-records-and-information-systems-in-honduran-hospitals",
+          title: 'Assessing the Adoption and Challenges of Electronic Health Records and Information Systems in...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/reyes2024ehr/";
+            },},{id: "books-implementing-research-based-teaching-methodology-a-multi-disciplinary-case-study",
+          title: 'Implementing Research-Based Teaching Methodology: A Multi-Disciplinary Case Study',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/reyes2024teaching/";
+            },},{id: "books-radar-placement-effects-on-multi-patient-heart-and-respiration-monitoring-sivis-dataset-validation",
           title: 'Radar Placement Effects on Multi-Patient Heart and Respiration Monitoring: SiViS Dataset Validation',
           description: "",
           section: "Books",handler: () => {
