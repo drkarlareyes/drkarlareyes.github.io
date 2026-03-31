@@ -4,11 +4,11 @@
 
 title: Dr. Karla Reyes # Updated title
 first_name: Karla
-middle_name:
-last_name: Reyes
-email: drkarlareyes@gmail.com # Added your email
+middle_name: Miriam
+last_name: Reyes Leiva
+email: drkarlareyes@gmail.com, rey0014@vsb.cz # Added your email
 contact_note: >
-  Based in Ostrava, Czech Republic. Open for collaborations.
+  Based in Ostrava, Czech Republic. Open for collaborations and consulting.
 
 description: >
   Biomedical Engineer and Data Scientist specializing in AI for Healthcare, Signal Processing, and Clinical Decision Support Systems.
@@ -16,7 +16,7 @@ description: >
 footer_text: >
   Researcher at VSB Technical University of Ostrava. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-keywords: biomedical engineering, deep learning, signal processing, healthcare AI, SaMD, VSB Ostrava # Updated your keywords
+keywords: biomedical engineering, deep learning, signal processing, healthcare AI, SaMD # Updated your keywords
 lang: en
 icon: ⚛️
 
@@ -266,6 +266,9 @@ enable_publication_badges:
   dimensions: true
   google_scholar: true
   inspirehep: true
+
+scholar_userid: ax6YKhcAAAAJ
+scholar_citations: true
 
 filtered_bibtex_keywords:
   [
