@@ -424,7 +424,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
+      },{id: "books-radar-placement-effects-on-multi-patient-heart-and-respiration-monitoring-sivis-dataset-validation",
+          title: 'Radar Placement Effects on Multi-Patient Heart and Respiration Monitoring: SiViS Dataset Validation',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/reyes2026radar/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
