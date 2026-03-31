@@ -109,11 +109,11 @@ ninja.data = [{
             },},{id: "news-",
           title: '',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "News",},{id: "teachings-applied-artificial-intelligence-methods",
+          title: 'Applied Artificial Intelligence Methods',
+          description: "A comprehensive hands-on course covering the practical implementation of AI algorithms, including Fuzzy Systems, Clustering, Neural Networks, Computer Vision, and Generative Models using MATLAB.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/teachings/applied-ai/";
             },},{
         id: 'social-cv',
         title: 'CV',
