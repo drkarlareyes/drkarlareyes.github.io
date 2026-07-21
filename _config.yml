@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Dr. Karla Reyes # Updated title
+title: Karla Reyes Leiva, Ph.D., M.Sc.
 first_name: Karla
 middle_name: Miriam
 last_name: Reyes Leiva
@@ -17,7 +17,7 @@ footer_text: >
   Researcher at VSB Technical University of Ostrava. 
 keywords: biomedical engineering, deep learning, signal processing, healthcare AI, SaMD # Updated your keywords
 lang: en
-icon: ⚛️
+icon: 🧠
 
 # -----------------------------------------------------------------------------
 # CRITICAL URL SETTINGS
@@ -62,9 +62,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-serve_og_meta: false
-serve_schema_org: false
-og_image:
+serve_og_meta: true
+serve_schema_org: true
+og_image: /assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -73,7 +73,7 @@ google_analytics:
 cronitor_analytics:
 pirsch_analytics:
 openpanel_analytics:
-google_site_verification:
+google_site_verification: d7JoSDc-40AAr_T1pnz59zK8By3M2xgvJMHYKA2u0nw
 bing_site_verification:
 
 # -----------------------------------------------------------------------------
@@ -105,13 +105,8 @@ giscus:
   emit_metadata: 0
   lang: en
 
-disqus_shortname: al-folio
+disqus_shortname: 
 
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -235,8 +230,8 @@ display_categories: ["Research"]
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Reyes] # Updated so it bolds your name in papers
-  first_name: [Karla]
+  last_name: [Reyes Leiva, Reyes, Leiva, Reyes-Leiva] # Updated so it bolds your name in papers
+  first_name: [Karla, Karla Miriam, K, K.M.R., K.M.]
 
   style: apa
   locale: en
