@@ -87,16 +87,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/reyes2026radar/";
-            },},{id: "news-",
-          title: '',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-",
           title: '',
+          description: "",
+          section: "News",},{id: "news-i-am-honored-to-have-been-recognized-as-the-best-researcher-of-lerco-vp9-st2-radar-group-at-vsb-technical-university-of-ostrava-receiving-this-award-is-a-meaningful-milestone-in-my-academic-journey-it-reflects-not-only-the-work-i-have-accomplished-over-the-past-years-but-also-the-support-of-my-colleagues-collaborators-and-mentors-who-have-been-part-of-this-journey-my-research-focuses-on-developing-contactless-radar-sensing-technologies-for-healthcare-combining-signal-processing-and-artificial-intelligence-to-create-reliable-non-invasive-monitoring-systems-my-main-research-interests-include-contactless-vital-sign-monitoring-heart-rate-and-respiratory-rate-estimation-human-activity-recognition-ai-and-signal-processing-methods-for-biomedical-applications-this-recognition-motivates-me-to-continue-asking-challenging-questions-exploring-new-ideas-and-translating-research-into-technologies-that-can-have-a-real-impact-on-healthcare-i-am-grateful-to-the-lerco-team-and-the-biomedical-engineering-research-group-for-providing-such-an-inspiring-environment-to-pursue-innovative-research-receiving-the-best-researcher-award-from-lerco-vp9-st2-radar-group-at-vsb-technical-university-of-ostrava",
+          title: 'I am honored to have been recognized as the Best Researcher of LERCO...',
           description: "",
           section: "News",},{id: "teachings-applied-artificial-intelligence-methods",
           title: 'Applied Artificial Intelligence Methods',
