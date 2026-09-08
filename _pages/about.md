@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Biomedical Engineer & Data Scientist. Researcher at VSB – Technical University of Ostrava.
+subtitle: Biomedical AI Research Scientist. Researcher at VSB – Technical University of Ostrava.
 profile:
   align: right
   image: prof_pic.jpg
