@@ -14,6 +14,10 @@ On the validation split, the detector reached an AP of 0.758 for vertebra boxes 
 - Reyes-Leiva KM. Prediction of spinal abnormalities in neuroradiology images applying deep transfer learning. *IEEE ICMLANT* (2024). [Paper](https://doi.org/10.1109/ICMLANT59547.2023.10372991)
 - Reyes K. Spondylolisthesis Vertebral Landmark. *Mendeley Data*, V1 (2025): 716 lateral lumbar radiographs with boxes and corner keypoints for L3 to S1 (CC BY 4.0). [Data](https://doi.org/10.17632/5jdfdgp762.1)
 
+#### Under review
+
+- Automated grading of spondylolisthesis via vertebral landmark detection. *Computers in Biology and Medicine*.
+
 #### Code
 
 - [spondylolisthesis-detection](https://github.com/drkarlareyes/spondylolisthesis-detection): label conversion, training, detection and grading notebooks.
