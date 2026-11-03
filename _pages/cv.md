@@ -1,12 +1,14 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/Karla_Reyes_CV_July2026_Final.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+description: Curriculum vitae.
 ---
+
+<p><a href="{{ '/assets/pdf/Karla_Reyes_CV_July2026_Final.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download the CV as PDF</a></p>
+
+<object data="{{ '/assets/pdf/Karla_Reyes_CV_July2026_Final.pdf' | relative_url }}" type="application/pdf" width="100%" height="1000px">
+  <p>The PDF cannot be shown here. <a href="{{ '/assets/pdf/Karla_Reyes_CV_July2026_Final.pdf' | relative_url }}">Download it instead</a>.</p>
+</object>
