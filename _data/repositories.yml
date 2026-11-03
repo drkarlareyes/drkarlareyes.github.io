@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - drkarlareyes
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - drkarlareyes/Radar-signal-processing
+  - drkarlareyes/Forecasting_PinchOnset
+  - drkarlareyes/spondylolisthesis-detection
+  - drkarlareyes/ADA-exercise-assessment
+  - drkarlareyes/Xsens-IMU-Raw-Data-Squat-RDL
+  - drkarlareyes/deep-learning-in-time-series
