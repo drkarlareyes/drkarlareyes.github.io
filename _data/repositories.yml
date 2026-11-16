@@ -6,6 +6,7 @@ repo_description_lines_max: 2
 github_repos:
   - drkarlareyes/Radar-signal-processing
   - drkarlareyes/Forecasting_PinchOnset
+  - drkarlareyes/Hormones-Brain-Motion
   - drkarlareyes/spondylolisthesis-detection
   - drkarlareyes/ADA-exercise-assessment
   - drkarlareyes/Xsens-IMU-Raw-Data-Squat-RDL
