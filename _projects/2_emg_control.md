@@ -9,9 +9,11 @@ Muscle electrical activity starts before the force it produces. I use surface EM
 
 #### Forecasting finger force and pinch onsets from HD-sEMG
 
-An evaluation framework of eight tests, run on the public Hyser and CEMHSEY datasets. A pilot on one participant per dataset asks how far EMG leads force in real time (22 to 41 ms), when a forecast beats simply repeating its own last estimate, which calibration data identify the model, whether a cue-only predictor can fake anticipation, and where false pinches come from, including after the electrodes are re-applied on another day.
+An evaluation framework of eight tests, run on four public datasets. A pilot on one participant each from Hyser and CEMHSEY asks how far EMG leads force in real time (22 to 41 ms), when a forecast beats simply repeating its own last estimate, which calibration data identify the model, whether a cue-only predictor can fake anticipation, and where false pinches come from, including after the electrodes are re-applied on another day.
 
 A second stage repeats the timing and forecast tests on all 20 Hyser participants. sEMG predicted force best about 130 ms ahead (median), the forecast beat its own last estimate during force rise from 100 ms ahead, and a calibration from one day did not carry over to the next without new data recorded with force.
+
+Stages 3 and 4 repeat the tests on putEMG-Force (44 participants) and WAY-EEG-GAL (12 participants reaching for and lifting an object). The best-prediction delay replicated (median 100 ms), but a detector referenced to rest rarely caught a press before force began, a calibration again failed in a new session, and in reach-and-lift trials the main burst of the first dorsal interosseous came after finger contact.
 
 - [Forecasting_PinchOnset](https://github.com/drkarlareyes/Forecasting_PinchOnset)
 
