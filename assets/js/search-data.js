@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "Peer-reviewed articles, conference papers and datasets, newest first.",
           section: "Navigation",
@@ -44,7 +51,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "books-assessing-the-adoption-and-challenges-of-electronic-health-records-and-information-systems-in-honduran-hospitals",
+        },{id: "post-counting-days-is-not-measuring-phase",
+        
+          title: "Counting days is not measuring phase",
+        
+        description: "How calendar-based cycle labels mislead women&#39;s health data, and what the Marquette cycle data show.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/counting-days-is-not-measuring-phase/";
+          
+        },
+      },{id: "post-what-resting-eeg-can-and-cannot-say-about-the-menstrual-cycle",
+        
+          title: "What resting EEG can and cannot say about the menstrual cycle",
+        
+        description: "A public EEG dataset of 69 women cannot separate a cycle or contraceptive effect from noise. A power and labeling analysis.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/resting-eeg-and-the-cycle/";
+          
+        },
+      },{id: "post-does-a-wrist-activity-model-underperform-for-women",
+        
+          title: "Does a wrist-activity model underperform for women?",
+        
+        description: "Testing the gender data gap on two public datasets. At coarse activity resolution, sex and hormonal status barely move the model or the measure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/wrist-activity-model-and-sex/";
+          
+        },
+      },{id: "books-assessing-the-adoption-and-challenges-of-electronic-health-records-and-information-systems-in-honduran-hospitals",
           title: 'Assessing the Adoption and Challenges of Electronic Health Records and Information Systems in...',
           description: "",
           section: "Books",handler: () => {
