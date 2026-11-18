@@ -24,5 +24,5 @@ Radar picks up the tiny chest movements caused by breathing and the heartbeat. I
 
 #### Code and data
 
-- [Radar-signal-processing](https://github.com/drkarlareyes/Radar-signal-processing): decoding, range-angle maps, target detection, MVDR beamforming, and heart and respiration rate for SiViS recordings.
+- [Radar-signal-processing](https://github.com/drkarlareyes/Radar-signal-processing): theory and code of my radar methods, from one person to several people in front of the same radar: phase demodulation and rate finders, range-angle maps and MVDR beams, MUSIC and sparse Bayesian localisation, ICA separation, and learning from beam features.
 - [SiViS on Harvard Dataverse](https://doi.org/10.7910/DVN/S9SNAK)
