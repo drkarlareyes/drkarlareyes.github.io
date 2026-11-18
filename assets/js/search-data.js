@@ -157,7 +157,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Karla_Reyes_CV_July2026_Final.pdf", "_blank");
+          window.open("/assets/pdf/Karla_Reyes_CV.pdf", "_blank");
         },
       },{
         id: 'social-email',
