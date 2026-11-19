@@ -1,25 +1,15 @@
 ---
 layout: post
-title: "New Open Dataset: SiViS for Multi-Patient Radar Monitoring"
-date: 2025-08-06 10:00:00 +0200
+title: "SiViS dataset published in Scientific Data"
+date: 2026-01-06 10:00:00 +0200
 inline: false
 related_posts: false
 ---
 
-I'm excited to share the release of **SiViS (Simulated Multi-patient Physiological Clinical States)**, an open-access dataset published in *Scientific Data (Nature Portfolio)*.
+Our SiViS dataset is out in *Scientific Data*. It is a radar dataset for following the breathing and heart rate of several patients in the same room, recorded with two and three patient simulators (SimMan 3G Plus) in the emergency room of the Ostrava University Training Hospital.
 
-Developing reliable radar-based healthcare systems remains a major challenge. Real-world environments are rarely limited to a single stationary subject—multiple people, different clinical conditions, body movements, changing radar configurations, and environmental reflections all make contactless vital sign monitoring significantly more difficult. These challenges have limited the development and benchmarking of robust signal processing and AI algorithms. :contentReference[oaicite:0]{index=0}
+The simulators reproduced twelve clinical states, from resting and sleeping to apnea, asthma attack and cardiac arrest, and their programmed vital signs are the reference. We moved the radar to top, frontal and lateral positions at 1 to 4 m and changed its settings, which gave more than 100 recording configurations.
 
-To address this, we created **SiViS**, a comprehensive radar dataset designed to support the next generation of contactless healthcare research. The dataset includes synchronized recordings across multiple radar configurations, patient positions, and simulated clinical scenarios, making it suitable for developing and evaluating algorithms for:
-
-- 📡 Contactless heart rate and respiratory rate estimation
-- 👥 Multi-person vital sign separation and tracking
-- 🤖 AI and machine learning for radar sensing
-- 🏥 Digital health and remote patient monitoring
-- 🔬 Signal processing methods such as ICA, MVDR, MUSIC, and related approaches :contentReference[oaicite:1]{index=1}
-
-By making this dataset openly available, we hope to provide the research community with a common benchmark for developing more robust, reproducible, and clinically relevant radar-based healthcare technologies.
-
-📄 **Read the Data Descriptor:** https://www.nature.com/articles/s41597-025-06449-9
-
-📊 **Access the dataset (Harvard Dataverse):** https://doi.org/10.7910/DVN/S9SNAK
+- Paper: [Scientific Data](https://doi.org/10.1038/s41597-025-06449-9)
+- Data: [Harvard Dataverse](https://doi.org/10.7910/DVN/S9SNAK)
+- Code: [Radar-signal-processing](https://github.com/drkarlareyes/Radar-signal-processing)
