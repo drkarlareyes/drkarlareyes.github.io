@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Counting days is not measuring phase",
         
-        description: "How calendar-based cycle labels mislead women&#39;s health data, and what the Marquette cycle data show.",
+        description: "How calendar based cycle labels mislead women&#39;s health data, and what the Marquette cycle data show.",
         section: "Posts",
         handler: () => {
           
