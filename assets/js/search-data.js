@@ -99,18 +99,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/reyes2026radar/";
-            },},{id: "news-new-open-dataset-for-lumbar-spine-biomechanics-research",
-          title: 'New Open Dataset for Lumbar Spine Biomechanics Research',
+            },},{id: "news-open-dataset-of-lumbar-spine-x-rays-with-vertebral-landmarks",
+          title: 'Open dataset of lumbar spine X-rays with vertebral landmarks',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-new-open-dataset-sivis-for-multi-patient-radar-monitoring",
-          title: 'New Open Dataset: SiViS for Multi-Patient Radar Monitoring',
+            },},{id: "news-sivis-dataset-published-in-scientific-data",
+          title: 'SiViS dataset published in Scientific Data',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
-            },},{id: "news-new-publication-personalized-ai-for-exercise-assessment-using-wearable-imus",
-          title: 'New Publication: Personalized AI for Exercise Assessment Using Wearable IMUs',
+            },},{id: "news-ada-published-in-frontiers-in-medical-technology",
+          title: 'ADA published in Frontiers in Medical Technology',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
