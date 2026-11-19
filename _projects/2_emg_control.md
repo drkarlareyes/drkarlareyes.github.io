@@ -7,13 +7,11 @@ importance: 2
 
 Muscle electrical activity starts before the force it produces. I use surface EMG to anticipate hand movement and to control assistive devices, and I test whether the extra time it gives is real or an artefact of the experimental protocol.
 
-#### Forecasting finger force and pinch onsets from HD-sEMG
+#### Forecasting pinch force from forearm sEMG
 
-An evaluation framework of eight tests, run on four public datasets. A pilot on one participant each from Hyser and CEMHSEY asks how far EMG leads force in real time (22 to 41 ms), when a forecast beats simply repeating its own last estimate, which calibration data identify the model, whether a cue-only predictor can fake anticipation, and where false pinches come from, including after the electrodes are re-applied on another day.
+Can forearm sEMG tell a robotic hand that a pinch is coming, early enough to be useful? I tested this offline on four public datasets, 77 people in total (Hyser, putEMG-Force, WAY-EEG-GAL and CEMHSEY).
 
-A second stage repeats the timing and forecast tests on all 20 Hyser participants. sEMG predicted force best about 130 ms ahead (median), the forecast beat its own last estimate during force rise from 100 ms ahead, and a calibration from one day did not carry over to the next without new data recorded with force.
-
-Stages 3 and 4 repeat the tests on putEMG-Force (44 participants) and WAY-EEG-GAL (12 participants reaching for and lifting an object). The best-prediction delay replicated (median 100 ms), but a detector referenced to rest rarely caught a press before force began, a calibration again failed in a new session, and in reach-and-lift trials the main burst of the first dorsal interosseous came after finger contact.
+The lead is short once processing is causal: 22 and 54 ms in the pilot. A forecast 100 ms ahead beat the model's own current estimate while force rose, but by little: 1.4 points of a typical press in Hyser, 0.4 in putEMG-Force, and not at all in a reach-and-lift task. A threshold detector rarely caught a press before its force started, even at settings with many false alarms at rest, and during a reach it fired long before the fingers touched the object. A calibration did not carry over to a new session without tens of seconds of new data with force.
 
 - [Forecasting_PinchOnset](https://github.com/drkarlareyes/Forecasting_PinchOnset)
 
