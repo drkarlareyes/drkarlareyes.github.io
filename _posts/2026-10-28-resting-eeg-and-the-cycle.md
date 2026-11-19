@@ -10,29 +10,25 @@ toc:
   sidebar: left
 ---
 
-A public EEG dataset lets you ask a direct question: do resting brain rhythms differ between women on hormonal contraception and naturally cycling women, or across the menstrual cycle? With 37 contraceptive users and 32 non-users, the answer this dataset can support is that it cannot tell. After correction for multiple comparisons, no spectral measure differed between groups. That is not evidence that the cycle leaves resting EEG unchanged. It is a dataset too small to detect anything but a large effect, labelled by a method too coarse to place the phase.
+This public EEG dataset let us ask a direct question: do resting brain rhythms differ between women on hormonal contraception and naturally cycling women, or across the menstrual cycle? With 37 contraceptive users and 32 non-users, the answer this dataset can support is that it cannot tell. After correction for multiple comparisons, no spectral measure differed between groups. This does not prove that cycling does not alter the resting EEG. The dataset is too small to detect anything more than a significant effect, and the method used is too imprecise to determine the phase.
 
-## The dataset and the test
+## The Experiment
 
-ds007615 (Normannseth et al., 2025) contains resting-state EEG from 69 women, 37 using hormonal contraception and 32 naturally cycling. I compared seven standard spectral measures between the two groups, including absolute and relative alpha power and the individual alpha peak frequency, and corrected for the seven tests with the Holm procedure.
+ds007615 (Normannseth et al., 2025) contains resting state EEG from 69 women, 37 using hormonal contraception and 32 naturally cycling. I compared seven standard spectral measures between the two groups, including absolute and relative alpha power and the individual alpha peak frequency, and corrected for the seven tests with the Holm procedure.
 
-## Nothing survives correction
+## The Findings
 
-No measure differed between groups after correction. The largest raw effect was absolute alpha power, with a standardised difference of d = 0.48, but its 95% confidence interval ran from −0.00 to 0.96: consistent with a moderate effect and equally consistent with none. Relative alpha power (d = 0.33) and individual alpha peak frequency (d = −0.36) were smaller and also non-significant.
+No measure differed between groups after correction. The largest raw effect was absolute alpha power, with a standardized difference of d = 0.48, but its 95% confidence interval ran from −0.00 to 0.96: consistent with a moderate effect and equally consistent with none. Relative alpha power (d = 0.33) and individual alpha peak frequency (d = −0.36) were smaller and also non significant.
 
-## What the sample could have detected
+The useful question is not whether the test was significant, but what it could have found. The minimum detectable effect for the contraceptive contrast was 0.69 SD. For a luteal vrs other comparison within the naturally cycling women, it was 1.13 SD. Lesser effects than that were never within reach. Detecting a moderate between groups effect (d = 0.5) at conventional power would need roughly 64 women per group, about twice this dataset.
 
-The useful question is not whether the test was significant, but what it could have found. The minimum detectable effect for the contraceptive contrast was 0.69 SD. For a luteal-versus-other comparison within the naturally cycling women, it was 1.13 SD. Effects smaller than that were never in reach. Detecting a moderate between-groups effect (d = 0.5) at conventional power would need roughly 64 women per group, about twice this dataset.
+A design for woman measurements, changes the arithmetic. Measuring the same women at two cycle points, rather than comparing different women once, would bring the minimum detectable effect down to about 0.35 SD with 27 women, assuming a within subject correlation of 0.8. The gain comes from removing between person variation, which in resting EEG is large.
 
-A within-woman design changes the arithmetic. Measuring the same women at two cycle points, rather than comparing different women once, would bring the minimum detectable effect down to about 0.35 SD with 27 women, assuming a within-subject correlation of 0.8. The gain comes from removing between-person variation, which in resting EEG is large.
+The phase labels are also crude:  The phase labels in a dataset like this are assigned by counting days, not by measuring hormones. Here the cycle is divided into fixed day ranges (1–6, 7–12, 14+), and a binary follicular/luteal split places the ovulatory window into the luteal class. Recomputing the label by counting backward from each woman's cycle length changes it for 14 of 26 cycles. A comparison built on these labels is comparing noisy groups, which widens the confidence intervals further. It is the same calendar problem that undermines day-based phase assignment elsewhere, now sitting on top of an already underpowered test.
 
-## The phase labels are coarse too
+## My suggestion on experimental design
 
-Power is only half the problem. The phase labels in a dataset like this are assigned by counting days, not by measuring hormones. Here the cycle is divided into fixed day ranges (1–6, 7–12, 14+), and a binary follicular/luteal split places the ovulatory window into the luteal class. Recomputing the label by counting backward from each woman's cycle length changes it for 14 of 26 cycles. A comparison built on these labels is comparing noisy groups, which widens the confidence intervals further. It is the same calendar problem that undermines day-based phase assignment elsewhere, now sitting on top of an already underpowered test.
-
-## What would answer the question
-
-The honest reading of ds007615 is that it does not answer the question, and it says why: too few women, measured once, labelled by calendar. A dataset that could answer it would measure the same women across the cycle, with phase confirmed by a hormonal marker rather than a date. That is a different design, not a larger version of this one.
+The honest reading of ds007615 is that it does not answer the question, and it says why: too few women, measured once, labelled by calendar. A dataset that could answer it would measure the same women across the cycle, with phase confirmed by a hormonal marker rather than a date. That is a different experimental design, not a larger version of this one.
 
 ## Data, code and references
 
