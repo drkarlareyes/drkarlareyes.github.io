@@ -10,7 +10,7 @@ profile:
   more_info: >
     <p>eHealth Lab — Dept. of Cybernetics and Biomedical Engineering</p>
     <p>Ostrava, Czech Republic</p>
-    <p>rey0014@vsb.cz</p>
+    <p>drkarlareyes@gmail.com</p>
 selected_papers: true
 social: true
 announcements:
@@ -36,7 +36,7 @@ Before Ostrava, I was a Research Scholar at **UC Santa Cruz** (Computer Vision L
 - **Motion, brain, and hormones** — connecting biochemically confirmed hormonal phase with continuous motion signals, sleep architecture, neuroimaging, and cognitive performance. The premise is simple and largely untested: how we move, sleep, and think is modulated by physiology that current datasets ignore. My first analyses of public data on this question, covering how precisely counted cycle days locate the cycle phases, what one resting EEG session can detect, and how wrist activity relates to sex, menopause and estradiol, are in [Hormones-Brain-Motion](https://github.com/drkarlareyes/Hormones-Brain-Motion).
 - **Assistive technology** — deep learning methods to extract motion characteristics from human activity for rehabilitation and ankle foot orthotics.
 
-**I am actively looking to connect with researchers and startups interested in the relationship between motion, the brain, and hormones.** If that is your field, or you suspect it should be; please [get in touch](mailto:rey0014@vsb.cz).
+**I am actively looking to connect with researchers and startups interested in the relationship between motion, the brain, and hormones.** If that is your field, or you suspect it should be; please [get in touch](mailto:drkarlareyes@gmail.com).
 
 ### Beyond the lab
 
