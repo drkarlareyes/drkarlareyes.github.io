@@ -38,6 +38,10 @@ Before Ostrava, I was a Research Scholar at **UC Santa Cruz** (Computer Vision L
 
 **I am actively looking to connect with researchers and startups interested in the relationship between motion, the brain, and hormones.** If that is your field, or you suspect it should be; please [get in touch](mailto:drkarlareyes@gmail.com).
 
+### Experimental data acquisition
+
+Most of my work starts with collecting the data. I have designed and run studies with healthy adults, athletes, visually impaired people and people in rehabilitation, in the lab and in their own homes, and recorded patient simulators in a hospital emergency room. The sensors range from wearable IMUs, motion capture and video to EMG, ECG, capacitive floor sensors and radar. I am now working on a multimodal dataset recorded in a lab set up like a nursing home, and on continuous radar monitoring in nursing homes in Ostrava. When the data I need is not available in my lab, I test my methods on public datasets first; several of these tests are in my [repositories]({{ '/repositories/' | relative_url }}).
+
 ### Beyond the lab
 
 I am originally from **Santa Bárbara, Honduras**, and I have since built a life across six countries: Honduras, Brazil, Spain, Germany, United States and now the Czech Republic. Each one rearranged something in how I think, how I perceive the world and what I look for in life.
