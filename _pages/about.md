@@ -40,7 +40,7 @@ Before Ostrava, I was a Research Scholar at **UC Santa Cruz** (Computer Vision L
 
 ### Experimental data acquisition
 
-Most of my work starts with collecting the data. I have designed and run studies with healthy adults, athletes, visually impaired people and people in rehabilitation, in the lab and in their own homes, and recorded patient simulators in a hospital emergency room. The sensors range from wearable IMUs, motion capture and video to EMG, ECG, capacitive floor sensors and radar. I am now working on a multimodal dataset recorded in a lab set up like a nursing home, and on continuous radar monitoring in nursing homes in Ostrava. When the data I need is not available in my lab, I test my methods on public datasets first; several of these tests are in my [repositories]({{ '/repositories/' | relative_url }}).
+Most of my work starts with collecting the data. I have designed and run studies with healthy adults, athletes, visually impaired people and people in rehabilitation, in the lab and in their own homes, and recorded patient simulators in a hospital emergency room. The sensors range from wearable IMUs, motion capture and video to EMG, ECG, capacitive floor sensors and radar. I am now working on a multimodal dataset recorded in a lab set up like a nursing home, and on continuous radar monitoring in nursing homes in Ostrava. When the data I need is not available in my lab, I test my methods on public datasets first; several of these tests are in my [repositories]({{ '/repositories/' | relative_url }}). The studies behind my papers, with numbers, are described on my [publications page]({{ '/publications/' | relative_url }}).
 
 ### Beyond the lab
 
