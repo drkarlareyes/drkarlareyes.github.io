@@ -36,7 +36,7 @@ Before Ostrava, I was a Research Scholar at **UC Santa Cruz** (Computer Vision L
 - **Motion, brain, and hormones** — connecting biochemically confirmed hormonal phase with continuous motion signals, sleep architecture, neuroimaging, and cognitive performance. The premise is simple and largely untested: how we move, sleep, and think is modulated by physiology that current datasets ignore. My first analyses of public data on this question, covering how precisely counted cycle days locate the cycle phases, what one resting EEG session can detect, and how wrist activity relates to sex, menopause and estradiol, are in [Hormones-Brain-Motion](https://github.com/drkarlareyes/Hormones-Brain-Motion).
 - **Assistive technology** — deep learning methods to extract motion characteristics from human activity for rehabilitation and ankle foot orthotics.
 
-**I am actively looking to connect with researchers and startups interested in the relationship between motion, the brain, and hormones.** If that is your field, or you suspect it should be; please [get in touch](mailto:drkarlareyes@gmail.com).
+**I am actively looking to connect with researchers and startups interested in the relationship between motion, the brain, and hormones.** If that is your field, or you suspect it should be; please [get in touch](mailto:drkarlareyes@gmail.com). If you need a consultant or just want to open a discussion to work on your data, don't hesitate to contact me :). 
 
 ### Experimental data acquisition
 
@@ -46,4 +46,7 @@ Most of my work starts with collecting the data. I have designed and run studies
 
 I am originally from **Santa Bárbara, Honduras**, and I have since built a life across six countries: Honduras, Brazil, Spain, Germany, United States and now the Czech Republic. Each one rearranged something in how I think, how I perceive the world and what I look for in life.
 
-I value hard work, and I have a genuine tolerance for chaos :) some of my best ideas have arrived in the middle of it. Mostly I just like putting my brain to work on problems that resist easy answers.
+I love sports and to observe what my body is capable of doing. I have played Volleyball since I am 11 years old, volleyball taught me to be persistent on my goals, to work on my mind and body, and most of my discipline, charisma and personality is a mix of being "the team mate who holds the spirit" of the games + growing up in a beautiful Latino family. 
+
+I value hard work, and I have a genuine tolerance for chaos :) some of my best ideas have arrived in the middle of it. Mostly I just like putting my brain to work on problems that resist easy answers. 
+
