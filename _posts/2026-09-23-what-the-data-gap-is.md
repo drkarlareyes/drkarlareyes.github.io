@@ -11,13 +11,15 @@ toc:
   sidebar: left
 ---
 
-Women are half the population and a minority of the evidence. That is the data gap: the measurements, studies and datasets that medicine and health technology are built on describe male bodies better than female ones, and they almost never record the hormonal state that makes female physiology change over time. This post is the entry point to this blog. It sets out the gap in numbers. The other posts test pieces of it on public data.
+Women are half the population of the world, and a minority of the evidence in data. 
+That is the *data gap*: tThe measurements, studies, and datasets on which medicine and health technology are based describe male bodies better than female bodies, and almost never record the hormonal state that causes changes in female physiology over time. This post is the entry point to this blog.
+It explains out the gap with numbers and evidence. 
 
 ## How the gap was built
 
-The gap has a documented origin. In 1977 an FDA guideline excluded most women of childbearing potential from early-phase drug trials. It stood until 1993, when the FDA rescinded it and the NIH Revitalization Act made the inclusion of women in federally funded clinical research a legal requirement (Liu and Dipietro Mager, 2016). Sixteen years of drug development ran under that exclusion, and many drugs prescribed today were approved before it ended (Zucker and Prendergast, 2020).
+The gap has a documented origin. In 1977 an FDA guideline excluded most women of childbearing potential from early phase drug trials. It stood until 1993, when the FDA rescinded it and the NIH Revitalization Act made the inclusion of women in federally funded clinical research a legal requirement (Liu and Dipietro Mager, 2016). Sixteen years of drug development ran under that exclusion, and many drugs prescribed today were approved before it ended (Zucker and Prendergast, 2020).
 
-The rule is gone. Its effect on the evidence base is not, because data collected without women cannot be corrected afterwards. It can only be replaced.
+The rule is gone. However, its effect on the evidence base is not gone, because data collected without women cannot be corrected afterwards. It can only be replaced.
 
 ## How large it is today
 
@@ -30,13 +32,13 @@ Four audits, in four fields, counted the same thing in different ways.
 | Neuroimaging | Studies published since the 1990s | Fewer than 0.5% consider health factors specific to women (Taylor et al., 2021; Jacobs, 2023) |
 | Basic biology | 720 articles in nine disciplines, 2009 against 2019 | More studies include both sexes. In eight of nine disciplines, no more of them analyse by sex (Woitowich et al., 2020) |
 
-The first row is the one closest to my own work. PhysioNet is one of the largest open repositories of biosignal data, and it is widely used to develop, train and validate algorithms. An algorithm trained on a dataset that does not say who was measured cannot be checked for whom it works.
+The first row is the one closest to my own work. PhysioNet is one of the largest open repositories of biosignal data, and it is widely used to develop, train and validate algorithms ALL OVER THE WORLD. An algorithm trained on a dataset that does not say who was measured,IT cannot be checked for whom it works with certanty.
 
-The last row is the most uncomfortable. Inclusion went up and analysis did not. Including women in a study and learning something about women are different things.
+The last row is the most uncomfortable: The inclusion went up and the analysis did not. Including women in a study and learning something about women are different things.
 
 ## The variable that is never recorded
 
-Sex is the easy part of the gap. A dataset can add a column for it. The harder part is that female physiology is not constant, and the variable that tracks the change is rarely measured.
+Sex variable is the easy part of the gap. A dataset can add a column for it. The harder part is that female physiology is not constant (embedded problem), and the variable that tracks the change is rarely and/or never measured.
 
 Across one menstrual cycle, estradiol rises about 12-fold and progesterone about 800-fold (Pritschet et al., 2020). A woman goes through roughly 450 cycles in her lifetime (Rizor et al., 2024). More than 100 million women use oral hormonal contraceptives, which suppress the body's own hormone production and replace that rhythm with a different one (Taylor et al., 2021).
 
@@ -44,9 +46,9 @@ These swings reach the signals that wearables already collect. In 274 cycles fro
 
 A device that does not know the cycle phase has to attribute those shifts to something else: fitness, recovery, stress, illness. The measurement is correct. The interpretation is missing a variable. How well that variable can be recovered without a hormone measurement is a separate question, and I test it in [another post](/blog/2026/counting-days-is-not-measuring-phase/).
 
-## What the gap costs
+## Costs and effects of the Gap
 
-Three population-scale numbers show where it lands.
+Three figures on a population scale show where it stands.
 
 **Drugs.** Women experience adverse drug reactions nearly twice as often as men (Zucker and Prendergast, 2020). Most pharmacotherapeutic guidelines remain sex-neutral, although absorption, distribution, metabolism and excretion all differ by sex and vary with hormonal state (Aljohmani and Yildiz, 2025).
 
@@ -54,7 +56,7 @@ Three population-scale numbers show where it lands.
 
 **Autoimmune disease.** In records from 22 million people in the UK, 19 autoimmune disorders together affect about 10% of the population: 13% of women and 7% of men (Conrad et al., 2023). A disease group that affects women at nearly twice the rate of men depends on the same evidence base described above.
 
-## What is not settled
+## Unresolved
 
 None of this means every reported cycle effect is real. Whether athletic performance changes with cycle phase is still called "a constant scientific debate", made harder by studies that never measured the hormones (Schlie et al., 2025). For pain, most well-controlled studies in healthy women find no effect of phase (Iacovides et al., 2015).
 
@@ -64,13 +66,6 @@ I take that uncertainty seriously, and I think it has the same cause as everythi
 
 I do not come to this topic only as an engineer. I live with an autoimmune disease, and I am tracking my own body recomposition. When I look at my own numbers, I want to know which changes are the ones I am working for and which belong to my cycle or to my condition. That question is the data gap at the scale of one person, and it is the reason I keep working on it.
 
-## Where to go next
-
-Each post on this blog takes one public dataset and one question.
-
-- [Counting days is not measuring phase](/blog/2026/counting-days-is-not-measuring-phase/): how often a calendar date identifies the cycle phase, tested on 1,498 hormone-tracked cycles.
-- [What resting EEG can and cannot say about the menstrual cycle](/blog/2026/resting-eeg-and-the-cycle/): what a public EEG dataset of 69 women has the statistical power to detect.
-- [Does a wrist-activity model underperform for women?](/blog/2026/wrist-activity-model-and-sex/): whether sex or hormonal status changes an activity model and a national accelerometer survey.
 
 ## References
 
