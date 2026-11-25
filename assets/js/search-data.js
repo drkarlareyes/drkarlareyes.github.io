@@ -84,6 +84,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/wrist-activity-model-and-sex/";
           
         },
+      },{id: "post-what-is-the-data-gap-the-numbers-behind-it",
+        
+          title: "What is the data gap? The numbers behind it",
+        
+        description: "Start here. What the data gap in women&#39;s health is, how it was built, and what the published numbers say about its size.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/what-the-data-gap-is/";
+          
+        },
       },{id: "books-assessing-the-adoption-and-challenges-of-electronic-health-records-and-information-systems-in-honduran-hospitals",
           title: 'Assessing the Adoption and Challenges of Electronic Health Records and Information Systems in...',
           description: "",
